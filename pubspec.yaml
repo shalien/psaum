@@ -1,0 +1,12 @@
+name: psaum
+description: Psaum is a port of the python written Googleplay-api in Dart. It allow to search the PlayStore and get informations about the apps.
+version: 0.0.1
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.17.0-266.5.beta <3.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+dependencies: {http: ^0.13.4, intl: ^0.17.0, path: ^1.8.1, protobuf: ^2.0.1}
